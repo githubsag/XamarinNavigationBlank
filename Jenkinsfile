@@ -4,7 +4,7 @@ node{
   checkout scm
 
 stage 'Build'
-  sh '/Library/Frameworks/Mono.framework/Versions/Current/bin/nuget restore XamarinNavigationBlank.sln'
+  sh 'build.sh'
   sh '/Library/Frameworks/Mono.framework/Versions/Current/bin/msbuild XamarinNavigationBlank.sln'
 
 stage 'Archive'

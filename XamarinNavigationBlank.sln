@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.25
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinNavigationBlank.Android", "XamarinNavigationBlank.Android\XamarinNavigationBlank.Android.csproj", "{79674B9C-5E74-4BF0-99A1-5621799E9EB4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XamarinNavigationBlank", "XamarinNavigationBlank\XamarinNavigationBlank.shproj", "{8624CE37-CEAE-4893-9442-9BEDC7B7EC84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79674B9C-5E74-4BF0-99A1-5621799E9EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79674B9C-5E74-4BF0-99A1-5621799E9EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79674B9C-5E74-4BF0-99A1-5621799E9EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79674B9C-5E74-4BF0-99A1-5621799E9EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4833BEEB-6906-4CA0-B6CF-F5794FE0EC98}
+	EndGlobalSection
+EndGlobal

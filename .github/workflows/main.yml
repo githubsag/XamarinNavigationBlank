@@ -33,22 +33,8 @@ jobs:
     - name: Android
       run: |
         nuget restore
-        pwd
-        /Library/Frameworks/Mono.framework/Versions/Current/Commands/msbuild XamarinNavigationBlank.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
-#  iOS:
-
-#      runs-on: macos-latest
-
-#      steps:
-
-#      - uses: actions/checkout@v1
-
-#      - name: iOS
-#        run: |
-#          cd XamarinNavigationBlank.iOS
-#          nuget restore
-#          msbuild XamarinNavigationBlank.iOS/XamarinNavigationBlank.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
-
+        cd XamarinNavigationBlank.Android
+        /Library/Frameworks/Mono.framework/Versions/Current/Commands/msbuild /verbosity:normal /t:Rebuild /p:Configuration=Debug
       
 
       

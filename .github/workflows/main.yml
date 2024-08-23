@@ -32,7 +32,7 @@ jobs:
 
     - name: Android
       run: |
-        cd XamarinNavigationBlank
+        cd XamarinNavigationBlank.Android
         nuget restore
         cd XamarinNavigationBlank.Android
         msbuild XamarinNavigationBlank.Android.csproj /verbosity /t:Rebuild /p:Configuration=Debug
@@ -46,7 +46,7 @@ jobs:
 
       - name: iOS
         run: |
-          cd XamarinNavigationBlank
+          cd XamarinNavigationBlank.iOS
           nuget restore
           msbuild XamarinNavigationBlank.iOS/XamarinNavigationBlank.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
 

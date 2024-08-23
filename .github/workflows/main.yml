@@ -33,7 +33,7 @@ jobs:
     - name: Android
       run: |
         nuget restore
-        cd /Users/sohrabazamighadim/Projects/Xamarin.Forms/XamarinNavigationBlank/XamarinNavigationBlank.Android
+        cd XamarinNavigationBlank.Android
         /Library/Frameworks/Mono.framework/Versions/Current/Commands/msbuild /verbosity:normal /t:Rebuild /p:Configuration=Debug
       
 

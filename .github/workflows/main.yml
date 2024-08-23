@@ -35,8 +35,8 @@ jobs:
 
       run: |
         nuget restore
-      # cd XamarinNavigationBlank.Android
-      # /Library/Frameworks/Mono.framework/Versions/Current/Commands/msbuild /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        cd XamarinNavigationBlank.Android
+        /Library/Frameworks/Mono.framework/Versions/Current/Commands/msbuild /verbosity:normal /t:Rebuild /p:Configuration=Debug
       
 
       

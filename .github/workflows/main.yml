@@ -34,7 +34,7 @@ jobs:
       run: |
         nuget restore
         cd XamarinNavigationBlank.Android
-        msbuild XamarinNavigationBlank.Android.csproj /verbosity /t:Rebuild /p:Configuration=Debug
+        msbuild XamarinNavigationBlank.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
 #  iOS:
 
 #      runs-on: macos-latest

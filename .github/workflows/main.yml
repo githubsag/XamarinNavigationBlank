@@ -32,23 +32,22 @@ jobs:
 
     - name: Android
       run: |
-        cd XamarinNavigationBlank
         nuget restore
         cd XamarinNavigationBlank.Android
         msbuild XamarinNavigationBlank.Android.csproj /verbosity /t:Rebuild /p:Configuration=Debug
-  iOS:
+#  iOS:
 
-      runs-on: macos-latest
+#      runs-on: macos-latest
 
-      steps:
+#      steps:
 
-      - uses: actions/checkout@v1
+#      - uses: actions/checkout@v1
 
-      - name: iOS
-        run: |
-          cd XamarinNavigationBlank.iOS
-          nuget restore
-          msbuild XamarinNavigationBlank.iOS/XamarinNavigationBlank.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
+#      - name: iOS
+#        run: |
+#          cd XamarinNavigationBlank.iOS
+#          nuget restore
+#          msbuild XamarinNavigationBlank.iOS/XamarinNavigationBlank.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
 
       
 

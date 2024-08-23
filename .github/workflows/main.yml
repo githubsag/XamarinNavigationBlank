@@ -27,10 +27,12 @@ jobs:
     runs-on: macos-latest
 
     steps:
-
+    - run: |
+        brew install --cask xamarin-android
     - uses: actions/checkout@v1
 
     - name: Android
+
       run: |
         nuget restore
         cd XamarinNavigationBlank.Android

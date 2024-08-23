@@ -33,7 +33,6 @@ jobs:
     - name: Android
       run: |
         nuget restore
-        brew install --cask xamarin-android
         cd XamarinNavigationBlank.Android
         /Library/Frameworks/Mono.framework/Versions/Current/Commands/msbuild /verbosity:normal /t:Rebuild /p:Configuration=Debug
       

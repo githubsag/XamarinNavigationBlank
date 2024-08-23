@@ -32,7 +32,7 @@ jobs:
 
     - name: Android
       run: |
-        cd XamarinNavigationBlank.Android
+        cd XamarinNavigationBlank
         nuget restore
         cd XamarinNavigationBlank.Android
         msbuild XamarinNavigationBlank.Android.csproj /verbosity /t:Rebuild /p:Configuration=Debug
